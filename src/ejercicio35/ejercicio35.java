@@ -11,9 +11,9 @@ public class ejercicio35 {
 		int notamin = 999999999;
 				
 				
-		for( int nota = 0; nota <= 5; nota++ ) {
-			
+		for( int nota = 0; nota < 5; nota++ ) {
 			System.out.println("ingrese calificacion:" );
+			
             int notas = datos.nextInt();
            
             if (notas<notamin ) {
@@ -23,14 +23,14 @@ public class ejercicio35 {
              if(notas > notamax) {
             	notamax=notas;
             }
+		
+        }
 		System.out.println("nota min:"+ notamin);
         System.out.println("nota maxima: " + notamax);
-        }
-          
 
 			
 			
 		}
 	}
 
-}
+
