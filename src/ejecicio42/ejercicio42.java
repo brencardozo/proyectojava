@@ -28,6 +28,8 @@ public class ejercicio42 {
 				break;
 			
 			}
+			
+	                             
 			 }
 	
 		if (caca==false) {
