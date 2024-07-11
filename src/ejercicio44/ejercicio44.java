@@ -27,12 +27,12 @@ public class ejercicio44 {
 	HashSet<String> set = new HashSet<>(lista);
 	
 	System.out.println("\tLISTA CREADA");
-		for (String elemento : lista) {
+		for (String elemento : set) {
 			
 			System.out.println(elemento);
 			
-			lista.clear();
-			lista.addAll(set);
+			
+			
 			
 		}
 		}
