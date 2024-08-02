@@ -60,8 +60,9 @@ public class funciones {
 	        } else {
 	            return false;}
 	        }
-	       
-	 
+	
+		
+	}
 	    // FUNCION CANTIDADANIMALES
 	    public static void cantidadAnimales(int gatos, int perros) {
 	    	
@@ -73,7 +74,7 @@ public class funciones {
 		    public static void main(String[] args) {
 		        ingresarNombre();
 		        System.out.println("");
-		       
+		      
 		        System.out.println("Apellido: "+apellido);
 		        System.out.println("La altura de la persona es: " + almacenarAltura(altura) );
 		        System.out.println("");
@@ -91,6 +92,5 @@ public class funciones {
 	
 	
 	 }
-	 
-	 
+
 
