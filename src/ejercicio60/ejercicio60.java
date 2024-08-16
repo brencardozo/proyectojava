@@ -15,6 +15,7 @@ public class ejercicio60 {
 			
 			if (num <0) {
 			throw new ArithmeticException();
+			
 		}}
 		}
 			catch (ArithmeticException e) {

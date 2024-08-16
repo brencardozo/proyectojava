@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ejercicio52 {
 	static Scanner datos = new Scanner(System.in);
 	
-	
+
 	 static float  costo;
 	 
 	  public static void analizarDescuentoo(float costo) {
@@ -25,14 +25,30 @@ public class ejercicio52 {
 	 
 	  }
 
-	  public static float ingresarCosto() {
+	  public static void ingresarCosto() {
+	boolean hayErrores = false;
+	boolean finalizoIngreso = false;
+	 
+		 
+	do {
 		
+		try {
 		 System.out.println("Ingrese el monto del dinero: ");
 		 float costoInicial =datos.nextFloat();
-		 return costoInicial;
-		  
-	}
-	 
+		
+		
+		}
+		 catch (Exception e) {
+			hayErrores = true;
+			System.out.println("Ocurrio un error: " + e.getMessage());
+			System.out.println("Ingrese los datos nuevamente.");
+			System.out.println("------------");
+			datos.nextLine();
+		}
+		}
+	
+	  	while (hayErrores == true || finalizoIngreso == false);
+	  }
 	  public static void main(String[] args) {
 		  analizarDescuentoo(ingresarCosto());
 		 
